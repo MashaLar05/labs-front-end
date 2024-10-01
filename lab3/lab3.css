@@ -1,0 +1,60 @@
+.image-block {
+  display: block;
+  width: 100%;
+  background-color: rgb(39, 139, 188);
+}
+.image-block img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.text-block {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.text {
+  width: 48%;
+  text-align: justify;
+  font-size: 18px;
+  padding: 1%;
+}
+.first_paragraph {
+  float: left;
+  background-color: rgb(131, 85, 216);
+}
+.second_paragraph {
+  float: right;
+  background-color: rgb(119, 230, 255);
+}
+.alstroemeria-image,
+.lycoris-image {
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 139, 188);
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+
+.first_paragraph_container {
+  background-color: rgb(131, 85, 216);
+}
+
+.second_paragraph_container {
+  background-color: rgb(119, 230, 255);
+}
