@@ -1,0 +1,23 @@
+#date-of-birth,
+.education {
+  cursor: pointer;
+}
+
+.first-element-active {
+  background-color: yellow;
+}
+
+.second-element-active {
+  background-color: green;
+  color: white;
+}
+
+.image-hidden {
+  visibility: hidden;
+}
+
+button:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
