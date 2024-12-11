@@ -1,0 +1,138 @@
+.Design {
+  background-color: rgba(254, 253, 253, 0.867);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  width: auto;
+}
+
+.design-icon {
+  width: 30%;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.grid-component {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.design-app-icon {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.design-title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.design-text {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .Design {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .design-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .design-icon {
+    width: 40%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+
+  .grid-component {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .design-app-icon {
+    width: 95%;
+  }
+
+  .design-title {
+    font-size: 20px;
+  }
+
+  .design-text {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Design {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .design-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .design-icon {
+    width: 20%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .grid-component {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .design-app-icon {
+    width: 80%;
+    border-radius: 20px;
+  }
+
+  .design-title {
+    font-size: 24px;
+  }
+
+  .design-text {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

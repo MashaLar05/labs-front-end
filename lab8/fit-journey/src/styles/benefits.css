@@ -1,0 +1,119 @@
+.Benefits {
+  background-color: rgba(254, 253, 253, 0.867);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+  width: auto;
+}
+
+.benefit-container {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.benefit-icon {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  width: 20%;
+}
+
+.benefit-title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.benefit-text {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .Benefits {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .benefit-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .benefit-container {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+  }
+
+  .benefit-icon {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 30%;
+  }
+
+  .benefit-title {
+    font-size: 22px;
+  }
+
+  .benefit-text {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Benefits {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .benefit-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .benefit-container {
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+  }
+
+  .benefit-icon {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 30%;
+  }
+
+  .benefit-title {
+    font-size: 24px;
+  }
+
+  .benefit-text {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

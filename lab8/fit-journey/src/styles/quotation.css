@@ -1,0 +1,203 @@
+.Quotation {
+  background-image: url("../../public/images/background_quotation.png");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 64px;
+}
+
+.testimonial-section {
+  background-color: rgb(55, 211, 211);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.quote {
+  display: flex;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.author-image {
+  width: 25%;
+  height: 25%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.quote-text {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 80%;
+  text-align: justify;
+}
+
+.author {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 80%;
+  text-align: justify;
+}
+
+.blacked-text {
+  color: black;
+}
+
+.stats {
+  color: rgba(254, 253, 253);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.stat {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 28px;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .Quotation {
+    padding-bottom: 64px;
+  }
+
+  .testimonial-section {
+    padding: 36px 20px;
+  }
+
+  .quote {
+    margin-bottom: 36px;
+  }
+
+  .author-image {
+    width: 30%;
+    height: 30%;
+    max-width: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+
+  .quote-text {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  .author {
+    margin-top: 8px;
+    margin-bottom: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  .stats {
+    gap: 40px;
+    margin-top: 48px;
+  }
+
+  .stat {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .stat h3 {
+    font-size: 36px;
+  }
+
+  .stat p {
+    margin: 5px 0 0;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Quotation {
+    padding-bottom: 64px;
+  }
+
+  .testimonial-section {
+    padding: 40px 20px;
+  }
+
+  .quote {
+    margin-bottom: 48px;
+  }
+
+  .author-image {
+    width: 30%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .quote-text {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70%;
+  }
+
+  .author {
+    margin-top: 8px;
+    margin-bottom: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70%;
+  }
+
+  .stats {
+    gap: 40px;
+    margin-top: 48px;
+  }
+
+  .stat {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .stat h3 {
+    font-size: 36px;
+  }
+
+  .stat p {
+    margin: 5px 0 0;
+    font-size: 18px;
+  }
+}

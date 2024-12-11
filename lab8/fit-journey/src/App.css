@@ -1,0 +1,53 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  position: relative;
+  color: black;
+  font-weight: 800;
+  width: 100%;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.aqua-button {
+  width: 30% !important;
+  background-color: rgb(55, 211, 211) !important;
+  color: rgba(254, 253, 253, 0.867) !important;
+  border-radius: 15px !important;
+  border-color: rgb(55, 211, 211) !important;
+  font-size: 10px !important;
+}
+
+@media (min-width: 768px) {
+  .aqua-button {
+    font-size: 14px !important;
+    width: 20% !important;
+    border-radius: 15px !important;
+  }
+
+  .title {
+    margin-bottom: 28px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .aqua-button {
+    font-size: 18px !important;
+    width: 20% !important;
+    border-radius: 15px !important;
+    border-color: rgb(55, 211, 211) !important;
+  }
+
+  .title {
+    margin-bottom: 48px;
+    font-size: 32px;
+  }
+}

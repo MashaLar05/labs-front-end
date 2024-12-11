@@ -1,0 +1,157 @@
+.AwesomeApps {
+  background-color: rgba(232, 232, 232, 0.371);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container-for-all-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AwesomeApps .title {
+  margin-bottom: 20px;
+}
+
+.description {
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  width: 100%;
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  justify-items: center;
+  width: auto;
+}
+
+.app-container {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(254, 253, 253, 0.867);
+}
+
+.app-image {
+  width: 70%;
+}
+
+.app-name {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.app-description {
+  font-weight: 100;
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+@media (min-width: 768px) {
+  .AwesomeApps {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .AwesomeApps .title {
+    margin-bottom: 24px;
+  }
+
+  .description {
+    margin-bottom: 48px;
+    font-size: 20px;
+  }
+
+  .app-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .app-container {
+    padding-top: 22px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 36px;
+  }
+
+  .app-image {
+    width: 80%;
+  }
+
+  .app-name {
+    margin-top: 22px;
+    font-size: 20px;
+  }
+
+  .app-description {
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .AwesomeApps {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .AwesomeApps .title {
+    margin-bottom: 24px;
+  }
+
+  .description {
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 48px;
+    font-size: 24px;
+  }
+
+  .app-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .app-container {
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 64px;
+  }
+
+  .app-image {
+    width: 80%;
+  }
+
+  .app-name {
+    margin-top: 24px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .app-description {
+    font-weight: 100;
+    font-size: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
